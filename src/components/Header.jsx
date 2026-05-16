@@ -15,7 +15,7 @@ export default function Header({ adminMode = false }) {
           <a href="/#products" className="nav-link">المنتجات</a>
         </div>
 
-        <Link to="/" className="logo"><img src="../public/IMG_0121.PNG" alt="logo"width="60px"/></Link>
+        <Link to="/" className="logo"><img src="/IMG_0121.PNG" alt="logo" width="60px"/></Link>
 
         <div className="header-actions">
           {adminMode ? (
